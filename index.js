@@ -1,4 +1,4 @@
-function kvp(input,target)
+export function kvp(input,target)
 {
     for(let key in input)
     {
