@@ -1,0 +1,22 @@
+{
+  "name": "utility_kvp_kaka",
+  "version": "1.0.0",
+  "description": "function to find key value",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaliprasadkandula/utility_kvp_kaka.git"
+  },
+  "keywords": [
+    "utility_kvp_kaka"
+  ],
+  "author": "kaliprasad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaliprasadkandula/utility_kvp_kaka/issues"
+  },
+  "homepage": "https://github.com/kaliprasadkandula/utility_kvp_kaka#readme"
+}

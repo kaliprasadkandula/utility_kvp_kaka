@@ -1,4 +1,4 @@
-export function kvp(input,target)
+function kvp(input,target)
 {
     for(let key in input)
     {
@@ -8,7 +8,7 @@ export function kvp(input,target)
         }
         let type=typeof value
         if(type==="object"||type==="array"){
-            let output=findDee(value,target)
+            let output=kvp(value,target)
             if(output){
                 return output
             }
@@ -16,3 +16,4 @@ export function kvp(input,target)
               
     }
 }
+module.exports={kvp}
